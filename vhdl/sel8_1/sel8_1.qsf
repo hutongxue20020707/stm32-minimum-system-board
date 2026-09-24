@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 13.0 SP1 工程设置 —— 8 选 1 数据选择器
+# 器件与本次课程设计其余工程保持一致（Cyclone IV E EP4CE40F29C6）
+#
+# -------------------------------------------------------------------------- #
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE40F29C6
+set_global_assignment -name TOP_LEVEL_ENTITY sel8_1
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name VHDL_FILE sel8_1.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+# 波形仿真文件（在 Quartus 中 File -> New -> Vector Waveform File 建立后取消下一行注释）
+# set_global_assignment -name VECTOR_WAVEFORM_FILE sel8_1.vwf

@@ -1,0 +1,22 @@
+# Quartus II 编译产物（不进仓库）
+db/
+incremental_db/
+simulation/
+output_files/
+*.qws
+*.qdf
+*.rpt
+*.smsg
+*.qmsg
+*.summary
+*.pin
+*.jdi
+*.done
+*.bak
+*.vhd.bak
+
+# 临时与系统文件
+~$*
+*.TMP
+Thumbs.db
+desktop.ini
