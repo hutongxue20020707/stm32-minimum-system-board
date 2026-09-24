@@ -93,8 +93,7 @@ vsim -do sim.do
 │  └─ counter/                         # 6 进制 / 60 进制计数器、09→99 计数与打包
 ├─ docs/
 │  ├─ EDA技术课程设计报告.docx
-│  ├─ 最小系统板讲解.pptx              # 答辩/讲解 PPT
-│  └─ 胡凯旋-简历.pdf
+│  └─ 最小系统板讲解.pptx              # 答辩/讲解 PPT
 └─ images/
    ├─ pcb-overview.png                 # PCB 走线总览（顶层 + 底层）
    ├─ pcb-top-layer.png / pcb-bottom-layer.png
